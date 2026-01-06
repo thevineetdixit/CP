@@ -32,7 +32,6 @@ for(long long i = 2; i * i <= n ; i++ )
     }
     ans *= (cnt+1);
     sum *= currsum;
-    
 }
 
 if(n > 1)ans *= 2; //this is a very important case where the nis left and this is becuas n is a prime no left so 
