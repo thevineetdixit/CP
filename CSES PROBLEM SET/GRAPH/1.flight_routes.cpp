@@ -42,7 +42,7 @@ int main() {
         dist[u].push_back(d);//jo bhi dist mila wo kth min hoga
 
         for(auto [v,w] : adj[u])// * saare edge push kro chahe repeat ho
-        pq.push({d+w,v});
+        pq.push({d+w,v});//bs saare edges daalo,baaki ho jayega
 
     }
 
